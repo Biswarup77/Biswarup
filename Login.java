@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Login {
 
 	public static void main(String[] args) throws InterruptedException {
-
+		//Modification done by Avinandan
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\BiswarupDan\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://sit-bpcustomers.cs84.force.com/BP");
